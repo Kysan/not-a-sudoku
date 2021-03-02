@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #131516;
+}
+
+#message {
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 1em;
+  color: orange;
+}
+
+#replay-message {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 1em;
+  color: blue;
+}
+
+#board {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row {
+  align-items: center;
+  flex-direction: row;
+}
+
+.square {
+  width: 4em;
+  height: 4em;
+  border-color: red;
+  background-color: black;
+  color: green;
+  border-width: 4px;
+  font-size: 4em;
+}
