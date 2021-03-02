@@ -1,6 +1,6 @@
 {
-  "homepage": "http://kysan.github.io/not-a-sudoku/",
-  "name": "kysudoku",
+  "homepage": "https://kysan.github.io/not-a-sudoku",
+  "name": "not-a-sudoku",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
